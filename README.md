@@ -16,7 +16,7 @@ Main Features:
 - Linux or macOS (NEST does not support Windows natively — see Windows instructions below)
 
 ### Installation (Linux)
-1. Create a virtual environment
+1. Create a virtual environment - example directory name 'iac_model_env'
 ```py
 python3 -m venv iac_model_env
 source iac_model_env/bin/activate
