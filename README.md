@@ -7,3 +7,6 @@ This project was created as a Final Year Undergraduate project.  Using the PyNN 
 ## Overview
 Main Features:
 - Two Systems (System 1 with a shared wickelfeature assembly for all letter assemblies, System 2 with each letter assembly having a personal wickelfeature assembly)
+- Able to conduct 2 experiment: Letter Occlusion (features within the letter are obscured), and Sequential Letter Presentation (showing the letters in a word at sequential time steps)
+- Plots the spike data and firing rates to histograms and bar charts respectively
+- Exports the spike data to .pkl files, which can be read with files in the **Utils** directory
