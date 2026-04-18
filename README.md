@@ -25,6 +25,14 @@ source iac_model_env/bin/activate
 ```py
 pip install nest-simulator
 ```
+3. Install PyNN
+```py
+pip install PyNN
+```
+4. Install Other Dependancies
+```py
+pip install numpy matplotlib
+```
 
 ## Installation Instructions
 
