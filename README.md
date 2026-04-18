@@ -34,12 +34,15 @@ pip install PyNN
 pip install numpy matplotlib
 ```
 
-## Installation Instructions
-
 ## Usage Instructions
 - Use RUN_OCCLUSION_TEST & RUN_SEQUENTIAL_TEST to control what tests are ran
-- 
-
+```py
+RUN_OCCLUSION_TEST = False
+RUN_SEQUENTIAL_TEST = True
+```
+- Choose what letter features are activated in either 'occlusion_test' or 'sequential_test'
+- Alternatively, uncomment one of the preset experiments within the 'occusion_test' or 'sequential_test' arrays
+  
 ## ToDo:
 1. Add either CLI or GUI interface to make usage smoother
 2. Remove Tsodyks-Markram synapses and try out adaptive neurons to fix runaway excitation
