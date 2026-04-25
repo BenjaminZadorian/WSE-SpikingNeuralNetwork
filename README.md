@@ -41,8 +41,16 @@ RUN_OCCLUSION_TEST = False
 RUN_SEQUENTIAL_TEST = True
 ```
 - Choose what letter features are activated in either 'occlusion_test' or 'sequential_test'
+```py
+# Test Title | Active features of the letter | If contextual feedback is enabled
+    occlusion_test = [  
+        ("Isolated_D", [1, 4], False),
+    ]
+```
 - Alternatively, uncomment one of the preset experiments within the 'occusion_test' or 'sequential_test' arrays
   
 ## ToDo:
 1. Add either CLI or GUI interface to make usage smoother
 2. Remove Tsodyks-Markram synapses and try out adaptive neurons to fix runaway excitation
+3. Add more varying features/letters/word
+4. Recreate other WSE experiments
