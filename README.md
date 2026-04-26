@@ -34,7 +34,7 @@ sudo apt-get install nest
 ```
 4. Install PyNN
 ```py
-pip install PyNN
+pip install pyNN
 ```
 5. Install Other Dependancies
 ```py
