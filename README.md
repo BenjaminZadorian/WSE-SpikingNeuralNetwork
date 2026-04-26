@@ -16,20 +16,24 @@ Main Features:
 - Linux or macOS (NEST does not support Windows natively — see Windows instructions below)
 
 ### Installation (Linux)
-1. Create a virtual environment - example directory name 'iac_model_env'
+1. Install Python
+```py
+sudo apt install python3-pip
+```
+2. Create a virtual environment - example directory name 'iac_model_env'
 ```py
 python3 -m venv iac_model_env
 source iac_model_env/bin/activate
 ```
-2. Install NEST Simulator
+3. Install NEST Simulator
 ```py
 pip install nest-simulator
 ```
-3. Install PyNN
+4. Install PyNN
 ```py
 pip install PyNN
 ```
-4. Install Other Dependancies
+5. Install Other Dependancies
 ```py
 pip install numpy matplotlib
 ```
