@@ -13,7 +13,7 @@ Main Features:
 
 ## Requirements
 - Python 3.8 or later
-- Linux or macOS (NEST does not support Windows natively — see Windows instructions below)
+- Linux or macOS (NEST does not support Windows natively)
 
 ### Installation (Linux)
 1. Install Python
@@ -26,9 +26,11 @@ apt install python3.[X]-venv
 python3 -m venv iac_model_env
 source iac_model_env/bin/activate
 ```
-3. Install NEST Simulator
+3. Get PPA Repository for NEST & Install NEST Simulator
 ```py
-pip install nest-simulator
+sudo add-apt-repository ppa:nest-simulator/nest
+sudo apt-get update
+sudo apt-get install nest
 ```
 4. Install PyNN
 ```py
