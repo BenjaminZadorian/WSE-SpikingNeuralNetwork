@@ -22,6 +22,7 @@ sudo apt install python3-pip
 ```
 2. Create a virtual environment - example directory name 'iac_model_env' (optional)
 ```py
+apt install python3.X-venv
 python3 -m venv iac_model_env
 source iac_model_env/bin/activate
 ```
